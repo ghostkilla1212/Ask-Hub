@@ -2,17 +2,32 @@ body {
     background: #1f1e1e; /*hintergrund farbe vom body*/
 }
 
-h1 {
+.heading {
      font-family: "Isometra", serif;
      font-size: 300%; /*schrift grose*/
      color: rgba(255, 255, 255, 0.863); /*text farbe*/
      text-align: center; /*text mitte*/
 }
 
-.regulate {
-    background-color: black;
-    position: absolute;
-    width: 30%;
-    height: 30%;
-    border-radius: 8%;
+.heading-text {
+    color: white; /*text farbe*/
+    text-align: center; /*text mitte*/
+}
+
+.rules-icon {
+   height: 37px; /*grose 37px*/
+ transform: translateY(58px); /*damit das icon in der mitte bleibt*/
+ margin-left: 28%; /*rand links 28* nach links*/
+}
+
+.rules {
+  background-color: #7777778e; /*hintergrund farbe*/
+  color: black; /*farbe schwarz text*/
+  border-radius: 20px; /*umrandung 20px*/
+  padding: 20px 20px; /*karten breite*/
+  margin: 100px auto; /*karten mitte*/
+  width: min(700px, 100%); /*breite 700px und 100%*/
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
