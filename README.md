@@ -9,3 +9,6 @@ Ask Hub is designed to be a simple and user-friendly platform where anyone can a
 #### 🛠️ Technologie
 Ask Hub is built using HTML, CSS, JavaScript, and Supabase.
 
+#### Backend
+The Ask Hub backend is built using Supabase and integrated into the JavaScript front end.
+https://supabase.com/
