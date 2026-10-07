@@ -8,3 +8,11 @@ h1 {
      color: rgba(255, 255, 255, 0.863); /*text farbe*/
      text-align: center; /*text mitte*/
 }
+
+.regulate {
+    background-color: black;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 8%;
+}
