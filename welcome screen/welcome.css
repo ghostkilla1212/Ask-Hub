@@ -1,0 +1,10 @@
+body {
+    background: #1f1e1e; /*hintergrund farbe vom body*/
+}
+
+h1 {
+     font-family: "Isometra", serif;
+     font-size: 300%; /*schrift grose*/
+     color: rgba(255, 255, 255, 0.863); /*text farbe*/
+     text-align: center; /*text mitte*/
+}
