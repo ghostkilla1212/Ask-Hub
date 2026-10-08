@@ -3,16 +3,30 @@
   display: flex;
   max-width: 400px;
   margin: 10px auto;
-  padding: 9px;
-  border: 2px solid black;
+  padding: 6px;
   border-radius: 400px;
   overflow: visible;
 }
 
 .search-bar input {
-    flex: 1;
+ flex: 1;
   background: transparent;
   border: none;
   outline: none;
-   padding: 10px 14px;
+}
+
+.search-bar button {
+ background-color: black;
+ color: rgba(255, 255, 255, 0.527);
+ border: 2px solid black;
+ padding: 10px;
+ border-radius: 20px;
+ cursor: pointer;
+ margin-right: 1%;
+  transition: 0.2s ease;
+}
+
+.search-bar button:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
 }
