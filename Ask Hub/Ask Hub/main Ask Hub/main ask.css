@@ -1,0 +1,19 @@
+body {
+    background: #1f1e1e; /*hintergrund farbe vom body*/
+}
+
+.header {
+     background: #1f1e1e; /*hintergrund farbe vom body*/
+    position: fixed; /*position fixieren*/
+    top: 0%; /*unten 0 damit das an der ecke bleibt*/
+    left: 0%; /*damit der rand 0 nach links geht das es immer am rand bleibt*/
+   width: 100%; /*breite 100 damit das ganze obere feld mit der header ist*/
+   height: 9%; /*grose 9% nach unten*/
+   border-bottom: solid black;
+}
+
+.logo {
+  width: 160px; /*breite 160px*/
+  position: absolute; /*position absolute*/
+  top: 10px; /*mitte des logos 10px*/
+}
