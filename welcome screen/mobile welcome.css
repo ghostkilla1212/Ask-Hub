@@ -1,11 +1,20 @@
 @media (max-width: 768px) {
 .rules-icon {
- margin-left: 4%;
+ margin-left: 1%;
 }
 }
 
 @media (max-width: 768px) {
 .Ask-Hub {
     margin-left: 40%;
+}
+}
+
+@media (max-width: 768px) {
+.heading {
+     font-family: "Isometra", serif;
+     font-size: 140%; /*schrift grose*/
+     color: rgba(255, 255, 255, 0.863); /*text farbe*/
+     text-align: center; /*text mitte*/
 }
 }
