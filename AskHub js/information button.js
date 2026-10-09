@@ -2,5 +2,5 @@ const infoButton = document.getElementById('infoButton'); // speichert die id in
 const infoMenu = document.getElementById('infoMenu'); //hier auch
 
 infoButton.addEventListener('click', () => {
-
+    infoMenu.classList.toggle('schow')
 });
