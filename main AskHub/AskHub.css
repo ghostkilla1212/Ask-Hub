@@ -10,6 +10,7 @@ body {
    width: 100%; /*breite 100 damit das ganze obere feld mit der header ist*/
    height: 9%; /*grose 9% nach unten*/
    border-bottom: solid black;
+   z-index: 1000; /*sorgt dass das askhub bild unter den header scrollt*/
 }
 
 .logo {
@@ -23,12 +24,12 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 30%;
-      font-family: "Life Savers", serif;
+        font-family: "Yuyu", sans-serif;
 }
 
 
 .main-image {
-    width: 33%; /*breite 33px*/
+    width: 30%; /*breite 30px*/
     position: absolute; /*position absolute*/
     top: 33%; /*mitte 33%*/
     right: 35%; /*rechts mitte 35%*/
