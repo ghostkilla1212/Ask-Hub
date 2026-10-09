@@ -16,6 +16,14 @@
     left: 230px;
 }
 
+.info-subtitle {
+    color: white;
+    font-size: 130%;
+    position: absolute;
+    top: 10%;
+}
+
+
 #infoMenu {
     background-color: gray;
     color: white;
