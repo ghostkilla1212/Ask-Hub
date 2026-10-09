@@ -8,4 +8,6 @@
 
 .login-menu img {
     width: 59%; /*breite 59%*/
+    cursor: pointer;
 }
+
