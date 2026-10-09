@@ -18,9 +18,19 @@ body {
   top: 10px; /*mitte des logos 10px*/
 }
 
+
+.heading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30%;
+      font-family: "Life Savers", serif;
+}
+
+
 .main-image {
     width: 33%; /*breite 33px*/
     position: absolute; /*position absolute*/
     top: 33%; /*mitte 33%*/
     right: 35%; /*rechts mitte 35%*/
 }
+
