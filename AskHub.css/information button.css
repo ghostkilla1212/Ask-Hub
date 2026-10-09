@@ -7,6 +7,7 @@
      background-color: gray;
      color: white;
     width: 500px;
+    cursor: pointer;
 }
 
 #infoButton img {
@@ -25,10 +26,12 @@
 
 
 #infoMenu {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.61);
+    display: none;
     color: white;
     padding: 15px;
     border-radius: 1%;
     width: 400px;
-
+    position: absolute;
+    top: 96%;
 }
