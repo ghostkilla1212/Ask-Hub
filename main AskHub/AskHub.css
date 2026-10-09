@@ -17,3 +17,10 @@ body {
   position: absolute; /*position absolute*/
   top: 10px; /*mitte des logos 10px*/
 }
+
+.main-image {
+    width: 33%; /*breite 33px*/
+    position: absolute; /*position absolute*/
+    top: 33%; /*mitte 33%*/
+    right: 35%; /*rechts mitte 35%*/
+}
