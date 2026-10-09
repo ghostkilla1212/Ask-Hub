@@ -24,12 +24,12 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 30%;
-        font-family: "Yuyu", sans-serif;
+    font-family: "Yuyu", sans-serif;
 }
 
 
 .main-image {
-    width: 30%; /*breite 30px*/
+    width: 35%; /*breite 35px*/
     position: absolute; /*position absolute*/
     top: 33%; /*mitte 33%*/
     right: 35%; /*rechts mitte 35%*/
