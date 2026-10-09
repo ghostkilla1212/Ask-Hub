@@ -1,9 +1,26 @@
+
 #infoButton {
     background: none;
     border: none;
+    position: absolute;
+    top: 80%;
+     background-color: gray;
+     color: white;
+    width: 500px;
 }
 
 #infoButton img {
     width: 100px;
     height: 100px;
+    position: relative;
+    left: 230px;
+}
+
+#infoMenu {
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    border-radius: 1%;
+    width: 400px;
+
 }
