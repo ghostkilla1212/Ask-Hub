@@ -1,0 +1,31 @@
+.search-bar {
+  background: rgba(128, 128, 128, 0.377); /*hintergrund farbe der searchbar*/
+  display: flex; /*display flexibel*/
+  max-width: 400px; /*maximale breite 400px*/
+  margin: 10px auto; /*rand mitte 10px*/
+  padding: 3px; /*abstand 3px*/
+  border-radius: 400px; /*umrandung 400px*/
+  overflow: visible;
+}
+
+.search-bar input {
+    flex: 1; /*button input rechts*/
+  background: transparent; /*hintergrund durchsichtig*/
+  border: none; /*rahmen keiner*/
+  outline: none; /*umriss keiner*/
+}
+
+.search-bar button {
+ background-color: black; /*hintergrundfarbe von den button schwarz*/
+ color: rgba(255, 255, 255, 0.527); /*farbe was in den button drinne ist leichtgrau*/
+ border: 2px solid black; /*umrand schwarz vom button*/
+ padding: 10px; /*abstand 10px*/
+ border-radius: 20px; /*urandung 20px*/
+ cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.search-bar button:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}

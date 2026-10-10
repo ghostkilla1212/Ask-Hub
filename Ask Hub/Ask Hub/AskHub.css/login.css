@@ -1,0 +1,13 @@
+.login-menu {
+    background: none; /*hintergrund keins*/
+    border: none; /*rand keins*/
+    position: absolute; /*position absolote*/
+    top: 1%; /*top mitte*/
+    left: 90%; /*links 90%*/
+}
+
+.login-menu img {
+    width: 59%; /*breite 59%*/
+    cursor: pointer;
+}
+
