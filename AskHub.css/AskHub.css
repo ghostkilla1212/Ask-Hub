@@ -19,7 +19,7 @@ body {
     bottom: 0; /*unten 0%*/
     left: 0; /*links */
     width: 100%; /*volle breite*/
-    height: 3%; /*greose 3%*/
+    height: 2%; /*greose 3%*/
     border-top: solid black;
     z-index: 1000;
 }
