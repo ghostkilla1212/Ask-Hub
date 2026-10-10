@@ -32,7 +32,7 @@
     border-radius: 1%; /*umrandung 1%*/
     width: 470px; /*breite 470px*/
     position: absolute;
-    top: 96%; /*top 96% nach unten position absolote hat dafur gesorgt dass es unten is*/
+    top: 96%; /*top 96*/
     opacity: 0;
     visibility: hidden;
     transform: translateY(12px);
@@ -54,4 +54,24 @@
     color: rgba(255, 0, 0, 0.719);
     margin-left: 1%;
 }
+
+.follow-telegram {
+    background-color: gray; /*hintergrund farbe grau*/
+    border: 3px solid black;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.follow-telegram:hover {
+     transform: translateY(-2px) scale(1.1);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 
