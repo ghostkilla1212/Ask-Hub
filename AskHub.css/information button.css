@@ -14,7 +14,7 @@
     width: 100px;
     height: 100px;
     position: relative;
-    left: 230px;
+    left: 232px;
 }
 
 .info-subtitle {
@@ -27,15 +27,31 @@
 
 #infoMenu {
     background-color: rgba(128, 128, 128, 0.61);
-    display: none;
     color: white;
     padding: 15px;
     border-radius: 1%;
-    width: 400px;
+    width: 470px;
     position: absolute;
     top: 96%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
 }
 
 #infoMenu.schow {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
+
+.info-heading {
+    margin-left: 1%;
+    color: white;
+}
+
+.forum-rules {
+    color: rgba(255, 0, 0, 0.719);
+    margin-left: 1%;
+}
+
