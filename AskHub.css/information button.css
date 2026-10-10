@@ -46,21 +46,21 @@
 }
 
 .info-heading {
-    margin-left: 1%;
-    color: white;
+    margin-left: 1%; /*rand links 1%*/
+    color: rgb(255, 255, 255); /*farbe weis*/
 }
 
 .forum-rules {
-    color: rgba(255, 0, 0, 0.719);
-    margin-left: 1%;
+    color: rgba(255, 0, 0, 0.719); /*farbe weis*/
+    margin-left: 1%; /*rand links 1%*/
 }
 
 .follow-telegram {
     background-color: gray; /*hintergrund farbe grau*/
-    border: 3px solid black;
-    color: white;
-    border-radius: 8px;
-    padding: 10px 20px;
+    border: 3px solid black; /*rand schwarz*/
+    color: white; /*button farbe weis*/
+    border-radius: 8px; /*rund 8px*/
+    padding: 10px 20px; /*grose und lange*/
      transition: transform 0.25s ease, box-shadow 0.25s ease;
     cursor: pointer;
 }
