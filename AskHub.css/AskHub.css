@@ -52,6 +52,19 @@ body {
     right: 35%; /*rechts mitte 35%*/
 }
 
+.forum-hub {
+    background: none; /*hintergrund keins*/
+    border: none; /*rand keins*/
+    position: absolute; /*position absolote*/
+    top: 1%; /*top mitte*/
+    left: 79%; /*links 90%*/
+}
+
+.forum-hub img {
+    width: 26%; /*breite 59%*/
+    cursor: pointer;
+}
+
 
 
 
