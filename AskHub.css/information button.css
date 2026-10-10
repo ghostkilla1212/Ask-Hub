@@ -1,38 +1,38 @@
 
 #infoButton {
-    background: none;
-    border: none;
-    position: absolute;
-    top: 80%;
-     background-color: gray;
-     color: white;
-    width: 500px;
+    background: none; /*hintergrund keins*/
+    border: none; /*rand keins*/
+    position: absolute; /*position absolute*/
+    top: 80%; /*80% unten am rand*/
+     background-color: gray; /*hintergrund farbe grau*/
+     color: white; /*schrift farbe fur den text weis*/
+    width: 500px; /*breite 500px*/
     cursor: pointer;
 }
 
 #infoButton img {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 232px;
+    width: 100px; /*breite 100px am rand*/
+    height: 100px; /*100 px grose*/
+    position: relative; /*position relative*/
+    left: 232px; /*left 232 px am rand*/
 }
 
 .info-subtitle {
-    color: white;
-    font-size: 130%;
-    position: absolute;
-    top: 10%;
+    color: white; /*textfarbe weis*/
+    font-size: 130%; /*font size 130%*/
+    position: absolute; /*position absoloute*/
+    top: 10%; /*top 10%*/
 }
 
 
 #infoMenu {
-    background-color: rgba(128, 128, 128, 0.61);
-    color: white;
-    padding: 15px;
-    border-radius: 1%;
-    width: 470px;
+    background-color: rgba(128, 128, 128, 0.61); /*hintergrund farbe grau*/
+    color: white; /*textfarbe weis*/
+    padding: 15px; /*abstand 15px*/
+    border-radius: 1%; /*umrandung 1%*/
+    width: 470px; /*breite 470px*/
     position: absolute;
-    top: 96%;
+    top: 96%; /*top 96% nach unten position absolote hat dafur gesorgt dass es unten is*/
     opacity: 0;
     visibility: hidden;
     transform: translateY(12px);
