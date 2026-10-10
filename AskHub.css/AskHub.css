@@ -14,12 +14,12 @@ body {
 }
 
 .footer {
-    background: #1f1e1e;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 9%;
+    background: #1f1e1e; /*hintergrund farbe*/
+    position: fixed; /*position fixiert am platz*/
+    bottom: 0; /*unten 0%*/
+    left: 0; /*links */
+    width: 100%; /*volle breite*/
+    height: 3%; /*greose 3%*/
     border-top: solid black;
     z-index: 1000;
 }
