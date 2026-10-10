@@ -13,17 +13,6 @@ body {
    z-index: 1000; /*sorgt dass das askhub bild unter den header scrollt*/
 }
 
-.footer {
-    background: #1f1e1e; /*hintergrund farbe*/
-    position: fixed; /*position fixiert am platz*/
-    bottom: 0; /*unten 0%*/
-    left: 0; /*links */
-    width: 100%; /*volle breite*/
-    height: 3%; /*greose 3%*/
-    border-top: solid black;
-    z-index: 1000;
-}
-
 .mini-header {
     background-color: gray;
    width: 100%; /*breite 100 damit das ganze obere feld mit der header ist*/
@@ -51,7 +40,4 @@ body {
     top: 33%; /*mitte 33%*/
     right: 35%; /*rechts mitte 35%*/
 }
-
-
-
 
